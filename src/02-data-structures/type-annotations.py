@@ -6,7 +6,7 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-print(add("Hello", "Nina"))  # This works generally, mypy will complain
+# print(add("Hello", "Nina"))  # This works generally, mypy will complain
 
 
 def greet(name: str) -> None:
