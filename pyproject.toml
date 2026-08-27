@@ -16,6 +16,7 @@ dev = [
 
 [tool.mypy]
 mypy_path = "src"
+check_untyped_defs = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
